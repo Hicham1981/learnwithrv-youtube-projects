@@ -28,7 +28,7 @@ public class Demo {
 
     @Test
     public void assertTitle(){
-        String currentTitle = driver.getTitle();
+        String currentTitle  = driver.getTitle();
         String expectedTitle = "RV";
 
         Assert.assertTrue(currentTitle.contains(expectedTitle));
