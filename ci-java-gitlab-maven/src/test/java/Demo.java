@@ -22,7 +22,6 @@ public class Demo {
 
         driver = new ChromeDriver(opt);
         driver.get("https://qa-automation-practice.netlify.app/");
-
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
 
